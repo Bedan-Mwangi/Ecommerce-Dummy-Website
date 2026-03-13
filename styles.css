@@ -1,0 +1,43 @@
+/* Start of header section*/
+.header_section{
+    background-color:#1f2937;
+    color: white;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px;
+}
+
+/*Start of navbar section*/
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+   
+    }
+/*Start of hero section*/
+.hero{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 50px;
+    background-color:#1f2937 ;
+}
+.hero-text{
+    max-width: 500px;
+    color: white;
+    font: roboto;
+
+}
+.hero-image img{
+    max-width: 400px;
+
+}
+.hero-btn{
+   background-color: blue;
+}
+
