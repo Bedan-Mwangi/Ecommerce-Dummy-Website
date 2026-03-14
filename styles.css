@@ -31,13 +31,17 @@
     max-width: 500px;
     color: white;
     font: roboto;
-
 }
 .hero-image img{
     max-width: 400px;
 
 }
 .hero-btn{
-   background-color: blue;
+    color: white;
+    background-color: #3b82f6;
+    border-radius: 10px;
+    font: roboto;
+    text-align: center;
+    padding: 10px 10px;
 }
 
