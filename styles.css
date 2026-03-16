@@ -45,3 +45,39 @@
     padding: 10px 10px;
 }
 
+.info-section{
+    text-align: center;
+    padding: 50px;
+}
+
+.info-container{
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+}
+
+.info-card{
+ width: 150px;
+ text-align: center;
+}
+
+.info-box{
+   width: 150px;
+   height: 150px;
+   border-radius: 15px;
+   margin-bottom:10px;
+   border: 4px solid #3882f6;
+   }
+
+.testimonial{
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.author{
+    text-align: end;
+    font-weight: 900;
+}
+
+
