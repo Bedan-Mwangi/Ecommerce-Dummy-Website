@@ -1,3 +1,8 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 /* Start of header section*/
 .header_section{
     background-color:#1f2937;
@@ -27,10 +32,15 @@
     padding: 50px;
     background-color:#1f2937 ;
 }
-.hero-text{
+.hero-main-text{
     max-width: 500px;
     color: white;
-    font: roboto;
+    font-weight: 900;
+    padding: 48px;
+}
+.hero-secondary-text{
+    padding: 18px;
+    color: #e5e7eb;
 }
 .hero-image img{
     max-width: 400px;
@@ -80,4 +90,40 @@
     font-weight: 900;
 }
 
+.ctn-banner{
+    padding: 40px 60px;
+    background-color: white;
+}
+.ctn-container{
+    background-color: #3b82f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    border-radius: 12px;
+}
+.ctn-text{
+    color: white;
+}
+.ctn-btn{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap
+}
 
+
+
+
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 5px;
+}
+
+ 
